@@ -41,7 +41,6 @@ public class NumberToWords {
     }
 
     public static void main(String[] args) {
-        System.out.println(numberToWords(1000));         // Output: "one thousand"
-        System.out.println(numberToWords(4003));         // Output: "four thousand three"
-        System.out.println(numberToWords(999999999));    // Output: "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred ninety-nine"
-    }
+        System.out.println(numberToWords(1000));         
+        System.out.println(numberToWords(4003));         
+        System.out.println(numberToWords(999999999));    
